@@ -33,29 +33,29 @@ class _ImageSliderState extends State<ImageSlider> {
     List<Map<String, dynamic>> images = [
       {
         'path': 'https://res.cloudinary.com/dwdatqojd/image/upload/v1738830090/omx1_yqlyjd.png',
-        'heading1': 'Your first car without a driver\'s license',
-        'description': 'Avocados are a great source of healthy fats, fiber, and vitamins.',
+        'heading1': 'Effortless parking at your fingertips—find, reserve, and park with ease!"',
+        'description': 'Smart parking made simple—park!',
         'dotColor': Color.fromARGB(255, 0, 0, 0),
         'backgroundColor': Color.fromARGB(255, 56, 55, 55),
       },
       {
         'path': 'https://res.cloudinary.com/dwdatqojd/image/upload/v1738830713/Img_car2_n3apej.png',
-        'heading1': 'Always there: more than 1000 cars in Tbilisi',
-        'description': 'Oranges are rich in Vitamin C and antioxidants, great for immune health.',
+        'heading1': 'With AutoSpaxe, finding and reserving your perfect parking spot is just a tap away',
+        'description': 'Find the perfect spot in seconds at your service.',
         'dotColor': Color.fromARGB(255, 255, 0, 0),
         'backgroundColor': Color.fromARGB(255, 212, 81, 29),
       },
       {
         'path': 'https://res.cloudinary.com/dwdatqojd/image/upload/v1738830939/Img_car3_rkbnay.png',
-        'heading1': 'Do not pay for parking, maintenance, and gasoline',
-        'description': 'Bananas are packed with potassium, great for heart health.',
+        'heading1': 'Seamless parking access—reserve, park, and go!',
+        'description': 'Park effortlessly, secure, and stress-free!',
         'dotColor': Color.fromARGB(255, 250, 89, 36),
         'backgroundColor': Color.fromARGB(255, 239, 133, 49),
       },
       {
         'path': 'https://res.cloudinary.com/dwdatqojd/image/upload/v1738831016/Img_car4_det2ck.png',
-        'heading1': '29 car models: from Skoda Octavia to Porsche 911',
-        'description': 'Mangos are delicious and rich in Vitamin A and Vitamin C.',
+        'heading1': 'Choose your perfect parking spot—convenience at your fingertips!',
+        'description': 'Effortless parking reservations just a tap!',
         'dotColor': Color.fromARGB(255, 34, 194, 253),
         'backgroundColor': Color.fromARGB(255, 98, 180, 250),
       },
@@ -124,7 +124,7 @@ class _ImageSliderState extends State<ImageSlider> {
             },
           ),
           Positioned(
-            bottom: 90,
+            bottom: 80,
             left: 0,
             right: 0,
             child: Row(
